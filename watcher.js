@@ -1,4 +1,3 @@
-const fs = require('fs');
 const readline = require('readline');
 const WatchFolder = require('./lib/watch_folder.js');
 
@@ -19,8 +18,6 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
-console.log(`Watching...`)
 
 rl.on('line', line => {
   if (line.toLowerCase() === 'exit') {
