@@ -1,0 +1,23 @@
+{
+  "name": "be_exam_candidate_zc",
+  "version": "1.0.0",
+  "description": "This repo contains an exercise intended for Back-End Engineers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuo-ch/be_exam_candidate_zc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuo-ch/be_exam_candidate_zc/issues"
+  },
+  "homepage": "https://github.com/zhuo-ch/be_exam_candidate_zc#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
