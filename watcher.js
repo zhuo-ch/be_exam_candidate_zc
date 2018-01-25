@@ -1,16 +1,8 @@
 const readline = require('readline');
+const formatUtil = require('./lib/format_util.js');
 const WatchFolder = require('./lib/watch_folder.js');
 
-const options = {};
-const dataIn = process.argv;
-
-for (let i = 2; i < dataIn.length; i++) {
-  if (dataIn[i][0] === '-') {
-    options[dataIn[i].slice(1)] = dataIn[i + 1];
-    i ++
-  }
-}
-
+const options = formatUtil.parseOptions(process.argv);
 const watcher = new WatchFolder(options);
 watcher.start();
 
