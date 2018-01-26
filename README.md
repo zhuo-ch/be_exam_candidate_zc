@@ -14,7 +14,7 @@ This repo contains an exercise intended for Back-End Engineers.
 1. This exercise is meant to showcase how you work. With consideration to the time limit, do your best to treat it like a production system.
 
 ## How-To
-1. watcher.js is run in Node.js. To install node please follow instructions for [windows](http://nodesource.com/blog/installing-nodejs-tutorial-windows/) or [linux](https://nodejs.org/en/download/package-manager/).
+1. Run npm i to install all dependencies.
 1. In terminal run 'node watcher.js' to run with defaults.
 
 ## Options
